@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googlepapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👨‍💻</text></svg>"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Aman Verma - Software Engineer (CSE) experienced in HTML, CSS, JavaScript, ReactJS, REST APIs, and Git/GitHub."
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobby">Hobby</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="section hero reveal">
+
+        <div id="particles-js"></div>
+
+        <div class="container">
+          <img
+            src="./assets/amanverma.jpg"
+            alt="profile_img"
+            class="profile-img"
+          />
+
+          <div class="hero-text">
+            <h1>Hello, I'm <span class="accent">Aman Verma</span></h1>
+            <p class="subtitle">
+              A passionate Web Developer crafting clean and delightful
+              experiences.
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="section about reveal">
+        <div class="container grid-2">
+          <div>
+            <h2 style="color: royalblue">About Me</h2>
+            <p>
+              I am a developer with a love for building fast, accessible, and
+              responsive websites. I enjoy solving problems, learning new
+              technologies, and collaborating with teams to deliver impactful
+              products.
+            </p>
+            <ul class="about-list">
+              <li><strong>Location:</strong> Amalapuram, India</li>
+              <li><strong>Experience:</strong> Fresher</li>
+              <li><strong>Specialty:</strong> Frontend Development</li>
+            </ul>
+
+            <div class="cta">
+              <a href="#contact" class="btn primary" id="hireBtn">Hire Me</a>
+              <button id="downloadCvBtn" class="btn outline" type="button">
+                Download CV
+              </button>
+            </div>
+
+          </div>
+          <div class="about-card">
+            <div class="avatar" aria-hidden="true">
+              <pre id="autoType"></pre>
+            </div>
+            <p class="quote">
+              “Code is like humor. When you have to explain it, it’s bad.”
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 style="color: royalblue" class="section-title">Skills</h2>
+
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              
+              <div class="skills-imgs">
+                <a href="">
+                  <img src="./assets/HTML5.png" alt="html">
+                </a>
+                <a href="">
+                  <img src="./assets/CSS3.png" alt="css">
+                </a>
+                <a href="">
+                  <img src="./assets/JavaScript.png" alt="javascript">
+                </a>
+                <a href="">
+                  <img src="./assets/React.png" alt="reactjs">
+                </a>
+                <a href="">
+                  <img src="./assets/Tailwind CSS.png" alt="tailwindcss">
+                </a>
+              </div>
+              <!-- <p>HTML5, CSS3, JavaScript, ReactJS, Tailwind CSS</p> -->
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+
+              <div class="skills-imgs">
+                <a href="">
+                  <img src="./assets/Java.png" alt="java">
+                </a>
+                <a href="">
+                  <img src="./assets/Spring.png" alt="spring">
+                </a>
+                <a href="">
+                  <img src="./assets/Node.js.png" alt="nodejs">
+                </a>
+              </div>
+              <!-- <p>Java, Spring Boot, NodeJS</p> -->
+            </div>
+            <div class="skill-category">
+              <h3>Tools & Others</h3>
+
+              <div class="skills-imgs">
+                <a href="">
+                  <img src="./assets/Git.png" alt="git">
+                </a>
+                <a href="">
+                  <img src="./assets/Github.jpeg" class="githubImg" alt="github">
+                </a>
+                <a href="">
+                  <img src="./assets/Postman.png" alt="postmanc:\Users\amanv\Downloads\Visual Studio Code (VS Code).png">
+                </a>
+                <a href="">
+                  <img src="./assets/VsCode.png" alt="reactjs">
+                </a>
+              </div>
+              <!-- <p>Git, GitHub, VS-Code, Postman</p> -->
+            </div>
+            <div class="skill-category">
+              <h3>API's</h3>
+              <p>Rest API's,</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 style="color: royalblue">Project</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <a href="https://covidtracker83.netlify.app/">
+                <h3 title="Covid19 Tracker App" style="color: rgb(42, 210, 239)">
+                  Covid19 Tracker</h3>
+              </a>
+
+              <p>
+                A real-time web app that displays up-to-date COVID-19 statistics
+                and trends by country
+                <span style="color: royalblue">(Deaths & Recovery)</span>.
+              </p>
+
+              <a href="https://github.com/Aman83Verma/Covid19_Tracker"><button class="btn primary">GitHub</button></a>
+            </div>
+
+            <div class="project-card">
+              <a href="https://weatherapp83.netlify.app/">
+                <h3 title="Weather App" style="color: rgb(42, 210, 239)">
+                  Weather App
+                </h3></a>
+
+              <p>
+                A real-time weather application using a public API to display
+                current weather of any City and fetches live weather data.
+              </p>
+
+              <a href="https://github.com/Aman83Verma/Weather-App"><button class="btn primary">GitHub</button></a>
+            </div>
+
+            <div class="project-card">
+              <a href="https://passwordgenerator83.netlify.app/">
+                <h3 title="Password Generator App" style="color: rgb(42, 210, 239)">
+                  Password Generator
+                </h3></a>
+
+              <p>
+                Creates strong, customizable passwords instantly to enhance
+                account security with copy clipboard features.
+              </p>
+
+              <a href="https://github.com/Aman83Verma/Password-Generator"><button class="btn primary">GitHub</button></a>
+            </div>
+
+            <div class="project-card">
+              <a href="https://stydysync83.netlify.app/">
+                <h3 title="Study Sync Site" style="color: rgb(42, 210, 239)">
+                  Study Sync
+                </h3></a>
+
+              <p>
+                Responsive study-management site that organizes notes and tasks
+                for efficient learning by using HTML & CSS.
+              </p>
+
+              <a href="https://github.com/Aman83Verma/StudySyn-Website"><button class="btn primary">GitHub</button></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section education reveal">
+        <div class="container">
+          <h2 style="color: royalblue">Education</h2>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-content">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <span class="muted">2022 – 2026 • BVC Engineering College</span>
+                <p>
+                  Focused on web technologies, data structures, and software
+                  engineering.
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-content">
+                <h3>Intermediate</h3>
+                <span class="muted"
+                  >2020 – 2021 • National Infotech College</span
+                >
+                <p>
+                  Science stream with emphasis on mathematics and computer
+                  science.
+                </p>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-content">
+                <h3>Schooling</h3>
+                <span class="muted"
+                  >2008 – 2019 • Angle International Boarding School</span
+                >
+                <p>Basics in Science, Mathematics, English, etc.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Hobbies Section -->
+      <section id="hobby" class="section hobby reveal">
+        <div class="container">
+          <h2 style="color: royalblue">Hobbies</h2>
+          <div class="hobby-grid">
+            <article class="card">
+              <h3 style="color: rgb(42, 210, 239)">Coding Challenges</h3>
+              <p>
+                I enjoy solving algorithmic problems to sharpen my skills and to
+                build better logics.
+              </p>
+            </article>
+            <article class="card">
+              <h3 style="color: rgb(42, 210, 239)">
+                Learning New Technologies
+              </h3>
+              <p>
+                Exploring ReactJS, TailwindCSS, Bootstrap, or emerging tech
+                stacks.
+              </p>
+            </article>
+            <article class="card">
+              <h3 style="color: rgb(42, 210, 239)">Problem-Solving Puzzles</h3>
+              <p>
+                Solving logic puzzles, Sudoku, or brain teasers to sharpen
+                skills and logics.
+              </p>
+            </article>
+            <article class="card">
+              <h3 style="color: rgb(42, 210, 239)">Travelling</h3>
+              <p>Exploring new cultures and cuisines around the world.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact reveal">
+        <div class="container grid-2">
+          <div>
+            <h2 style="color: royalblue">Contact Me</h2>
+            <p>
+              Have a project in mind or just want to say hi? Fill out the form
+              and I'll get back to you.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Email: </strong> amanverma6981@gmail.com</li>
+              <li><strong>Phone: </strong> +91 89693 36981</li>
+              <li><strong>Location: </strong> Amalapuram</li>
+            </ul>
+          </div>
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/mjkenyre" method="POST">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+            <label class="full">
+              <span>Message</span>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Scroll Up Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top"> ↑ </button>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          © <span id="year"></span> Aman Verma. Built with using HTML, CSS &
+          JavaScript.
+        </p>
+      </div>
+
+      <div class="social-media-button">
+        <a href="https://www.linkedin.com/in/amanverma81/">
+          <img src="./assets/Linked.jpeg" alt="linkedin" />
+        </a>
+        <a href="https://github.com/Aman83Verma">
+          <img src="./assets/Github.jpeg" alt="facebook" />
+        </a>
+        <a href="https://leetcode.com/u/AmanVerma_6981/">
+          <img src="./assets/Leetcode_Icon.jpeg" alt="leetcode" />
+        </a>
+        <a href="https://www.hackerrank.com/profile/amanverma6981">
+          <img src="./assets/HackerRank.jpeg" alt="hackerrank" />
+        </a>
+        <a href="https://www.google.com">
+          <img
+            src="./assets/google.jpeg"
+            alt="google"
+          />
+        </a>
+        <a href="https://www.youtube.com">
+          <img
+            src="./assets/YouTube.jpeg"
+            alt="youtube"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
