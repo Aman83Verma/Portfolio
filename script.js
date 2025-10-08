@@ -137,7 +137,7 @@ const downloadCvBtn = document.getElementById('downloadCvBtn');
 if(downloadCvBtn){
     downloadCvBtn.addEventListener('click', ()=>{
         // alert('CV download will start soon. Replace with actual file link.');
-        window.location.href = 'assets/Resume.pdf';
+        window.location.href = 'assets/Aman Resume.pdf';
     });
 }
 
@@ -154,9 +154,9 @@ new Typed("#autoType", {
   JavaScript, and ReactJS. I have a proven ability to integrate 
   APIs and use modern development tools like Git/GitHub to 
   deliver clean, maintainable, and high-performance code. 
-  I am a dedicated problem-solver with a collaborative 
-  mindset, seeking a WebDeveloper role to create innovative 
-  web solutions in a dynamic team environment.</p>
+  I am a dedicated problem-solver with a collaborative mindset, 
+  seeking a WebDeveloper role to create innovative web 
+  solutions in a dynamic team environment.</p>
     `],
 
   typeSpeed: 25,
