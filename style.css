@@ -159,6 +159,10 @@ img,video{
     gap:36px;
     align-items:center;
 }
+.about-container{
+    margin-right: 100px;
+}
+
 .about-card{
     background: var(--surface);
     border: 1px solid rgba(255,255,255,.06);

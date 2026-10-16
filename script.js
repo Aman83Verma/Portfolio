@@ -171,10 +171,10 @@ const roleTyping = new Typed("#autoRole", {
 
 new Typed("#autoType", {
   strings: [`
-        <p>  Java Full Stack Developer with hands-on experience in Java,
-  Spring Boot, Microservices, REST APIs, ExpressJS, ReactJS,
-  and MySQL. Published researcher (IJRASET, Feb 2026) with
-  strong knowledge of OOP, DSA, and database design.
+        <p>  Java Full Stack Developer with hands-on experience in
+  Java, Spring Boot, Microservices, REST APIs, ExpressJS,
+  ReactJS, and MySQL. Published researcher (IJRASET, Feb 2026)
+  with strong knowledge of OOP, DSA, and database design.
   
   Experienced in building secure, scalable applications
   using Spring Security, JWT, and Hibernate/JPA.
