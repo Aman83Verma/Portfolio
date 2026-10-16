@@ -137,26 +137,28 @@ const downloadCvBtn = document.getElementById('downloadCvBtn');
 if(downloadCvBtn){
     downloadCvBtn.addEventListener('click', ()=>{
         // alert('CV download will start soon. Replace with actual file link.');
-        window.location.href = 'assets/Aman Resume.pdf';
+        window.location.href = 'assets/Aman Verma_Resume.pdf';
     });
 }
 
 // Footer year
 const yearEl = document.getElementById('year');
+yearEl.textContent = new Date().getFullYear();
 if(yearEl){
-  yearEl.textContent = new Date().getFullYear();
 }
 
 new Typed("#autoType", {
   strings: [`
-        <p>  As a Computer Science graduate, I am skilled in building 
-  responsive, user-focused web applications using HTML, CSS, 
-  JavaScript, and ReactJS. I have a proven ability to integrate 
-  APIs and use modern development tools like Git/GitHub to 
-  deliver clean, maintainable, and high-performance code. 
-  I am a dedicated problem-solver with a collaborative mindset, 
-  seeking a WebDeveloper role to create innovative web 
-  solutions in a dynamic team environment.</p>
+        <p>  Java Full Stack Developer with hands-on experience in Java,
+  Spring Boot, Microservices, REST APIs, ExpressJS, ReactJS,
+  and MySQL. Published researcher (IJRASET, Feb 2026) with
+  strong knowledge of OOP, DSA, and database design.
+  
+  Experienced in building secure, scalable applications
+  using Spring Security, JWT, and Hibernate/JPA.
+  Focused on backend optimization, with 45–70% efficiency
+  improvements, while expanding expertise in Docker, AWS,
+  and CI/CD.</p>
     `],
 
   typeSpeed: 25,
