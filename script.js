@@ -147,6 +147,28 @@ yearEl.textContent = new Date().getFullYear();
 if(yearEl){
 }
 
+
+const roleTyping = new Typed("#autoRole", {
+    strings: [
+        "I'm Aman Verma",
+        "I'm Software Developer",
+        "I'm Web Developer",
+        "I'm Full Stack Developer"
+    ],
+
+    typeSpeed: 100,
+    backSpeed: 55,
+    backDelay: 1200,
+    startDelay: 500,
+
+    loop: true,
+    showCursor: true,
+    cursorChar: "|",
+    smartBackspace: true
+});
+
+
+
 new Typed("#autoType", {
   strings: [`
         <p>  Java Full Stack Developer with hands-on experience in Java,

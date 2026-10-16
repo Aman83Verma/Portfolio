@@ -112,6 +112,13 @@ img,video{
 .hero .accent{
     color:var(--accent);
 }
+.hero-text h1 {
+    line-height: 1.3;
+}
+.hero .typed-cursor {
+    color: var(--accent);
+    font-weight: 400;
+}
 .subtitle{
     color:var(--muted);
 }
@@ -160,7 +167,7 @@ img,video{
     box-shadow: var(--shadow);
 }
 .avatar{
-    height:180px;
+    height:200px;
     border-radius:14px;
     background:linear-gradient(135deg, rgba(124,92,255,.35), rgba(33,212,253,.35));
 }
